@@ -1,0 +1,21 @@
+## 说明
+
+	此为6.2节代码，MNIST手写数字识别示例程序
+	
+	其中：
+	
+	(1) main_CNN.py是训练和测试简单的CNN模型
+	    首次执行，会自动先下载MNIST数据集。
+	  
+	(2) main_mobileNetV2.py是使用mobileNetV2预训练模型进行训练和测试的代码（需要用到main_CNN.py中的部分模块）。
+	
+	(3) mnist_mobilenetV2_alone.py也是使用mobileNetV2预训练模型进行训练和测试的代码，是独立可以运行的。
+	
+	代码和前面的两个代码稍有不同。改代码实现了样本在进入模型前再变为3通道。
+  
+  
+## 执行程序前，安装必要的包：
+
+	pip install -r requirements.txt
+ 
+
